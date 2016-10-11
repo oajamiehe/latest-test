@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "debug": "पर",
+    "window": {
+      "title": "नमूना Konfabulator विजेट",
+      "name": "मुख्य विंडो",
+      "width": "500",
+      "height": "500"
+    },
+    "image": {
+      "src": "छवियाँ / Sun.png",
+      "name": "Sun1",
+      "hOffset": "250",
+      "vOffset": "250",
+      "alignment": "केंद्र"
+    },
+    "text": {
+      "data": "यहां क्लिक करे",
+      "size": "36",
+      "style": "साहसिक",
+      "name": "Text1",
+      "hOffset": "250",
+      "vOffset": "100",
+      "alignment": "केंद्र",
+      "onMouseUp": "Sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+  }
+}
