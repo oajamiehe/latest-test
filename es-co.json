@@ -1,9 +1,9 @@
 {
   "widget": {
-    "debug": "पर",
+    "debug": "En",
     "window": {
-      "title": "नमूना Konfabulator विजेट",
-      "name": "मुख्य विंडो",
+      "title": "Ejemplo de Konfabulator Widget",
+      "name": "Ventana principal",
       "width": "500",
       "height": "500"
     },
@@ -12,16 +12,16 @@
       "name": "Sun1",
       "hOffset": "250",
       "vOffset": "250",
-      "alignment": "केंद्र"
+      "alignment": "Centrar"
     },
     "text": {
-      "data": "यहां क्लिक करे",
+      "data": "Haga clic aquí",
       "size": "36",
-      "style": "साहसिक",
-      "name": "Text1",
+      "style": "Negrita",
+      "name": "Texto1",
       "hOffset": "250",
       "vOffset": "100",
-      "alignment": "केंद्र",
+      "alignment": "Centrar",
       "onMouseUp": "Sun1.opacity = (sun1.opacity / 100) * 90;"
     }
   }
