@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "debug": "En",
+    "window": {
+      "title": "Ejemplo de Konfabulator Widget",
+      "name": "Ventana principal",
+      "width": "500",
+      "height": "500"
+    },
+    "image": {
+      "src": "Images/Sun.png",
+      "name": "Sun1",
+      "hOffset": "250",
+      "vOffset": "250",
+      "alignment": "Centrar"
+    },
+    "text": {
+      "data": "Haga clic aquí",
+      "size": "36",
+      "style": "Negrita",
+      "name": "Texto1",
+      "hOffset": "250",
+      "vOffset": "100",
+      "alignment": "Centrar",
+      "onMouseUp": "Sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+  }
+}
