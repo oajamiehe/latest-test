@@ -1,0 +1,25 @@
+{
+  "glossary": {
+    "title": "Ejemplo glosario",
+    "GlossDiv": {
+      "title": "S",
+      "GlossList": {
+        "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "Standard Generalized Markup Language",
+          "Acronym": "SGML",
+          "Abbrev": "ISO 8879: 1986",
+          "GlossDef": {
+            "para": "Un lenguaje metamarcado, que se utiliza para crear lenguajes de marcas tales como DocBook.",
+            "GlossSeeAlso": [
+              "GML",
+              "XML"]
+            
+          },
+          "GlossSee": "Margen"
+        }
+      }
+    }
+  }
+}
