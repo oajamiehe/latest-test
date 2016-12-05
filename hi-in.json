@@ -1,28 +1,25 @@
 {
-  "widget": {
-    "debug": "पर",
-    "window": {
-      "title": "नमूना Konfabulator विजेट",
-      "name": "मुख्य विंडो",
-      "width": "500",
-      "height": "500"
-    },
-    "image": {
-      "src": "Images/Sun.png",
-      "name": "Sun1",
-      "hOffset": "250",
-      "vOffset": "250",
-      "alignment": "केंद्र"
-    },
-    "text": {
-      "data": "यहां क्लिक करे",
-      "size": "36",
-      "style": "साहसिक",
-      "name": "Text1",
-      "hOffset": "250",
-      "vOffset": "100",
-      "alignment": "केंद्र",
-      "onMouseUp": "Sun1.opacity = (sun1.opacity / 100) * 90;"
+  "glossary": {
+    "title": "उदाहरण के शब्दकोष",
+    "GlossDiv": {
+      "title": "एस",
+      "GlossList": {
+        "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "स्टैंडर्ड सामान्यीकृत मार्कअप लैंग्वेज",
+          "Acronym": "SGML",
+          "Abbrev": "आईएसओ 8879: 1986",
+          "GlossDef": {
+            "para": "एक मेटा-मार्कअप भाषा, ऐसे DocBook के रूप में मार्कअप भाषाओं को बनाने के लिए इस्तेमाल किया।",
+            "GlossSeeAlso": [
+              "GML",
+              "एक्सएमएल"]
+            
+          },
+          "GlossSee": "मार्कअप"
+        }
+      }
     }
   }
 }
